@@ -126,7 +126,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 select {
    background-color: rgb(226, 222, 222);
-   height: 25px; 
+   height: 25px;
+   border-radius: 5px; 
 }
 
 .start input, .end input {
