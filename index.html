@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic-Data-Formular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Forms</h1>
+    </div>
+    <div class="head1">
+        <div class="line1"></div>
+    <h2>Personal Data</h2>
+    <div class="line2"></div>
+    </div>
+    <main>
+        
+        <form action="">
+            <div class="list1">
+                <div class="fn">
+                    <label for="first-name"><strong>First Name:</strong></label>
+                <br><br>
+                <input name="First Name" type="text" required>
+                </div>
+                <br><br>
+                <div class="ln">
+                    <label for="last-name"><strong>Last Name:</strong></label>
+                <br><br>
+                <input name="Last Name" type="text" required>
+                </div>
+                <br><br>
+                <div class="street">
+                    <label for="street"><strong>Street:</strong></label>
+                <br><br>
+                <input name="Street" type="text" required>
+                </div>
+                <br><br>
+                <div class="zip">
+                    <label for="zipcode"><strong>Zipcode:</strong></label>
+                <br><br>
+                <input name="Zipcode" type="number" required>
+                </div>
+                <br><br>
+                <div class="city">
+                    <label for="city"><strong>City:</strong></label>
+                <br><br>
+                <input name="City" type="text" required>
+                </div>
+                <br><br>
+                <div class="phone">
+                    <label for="phone"><strong>Phone:</strong></label>
+                <br><br>
+                <input name="Phone" type="tel" required>
+                </div>
+                <br><br>
+                <div class="email">
+                    <label for="email"><strong>Email:</strong></label>
+                <br><br>
+                <input name="Email" type="email" required>
+                </div>
+                <br><br>
+                <div class="comments">
+                    <label id="comments" for="comments"><strong>Comments:</strong></label>
+                <br><br>
+                <textarea name="Comments" id="comments" cols="30" rows="10" placeholder="Tell us more about important colors, etc."></textarea>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="list2">
+                <h2 class="head2">Products</h2>
+            <div class="webdesign">
+                <label for="webdesign"><strong>Web Design:</strong></label>
+            <br><br>
+            <input name="Web Design" type="radio" required checked>Individual
+            <input name="Web Design" type="radio" required>Template
+            </div>
+            <br><br>
+            <div class="webdevelopment">
+                <label for="webdevelopment"><strong>Web Development:</strong></label>
+            <br><br>
+            <input name="Web Development" type="checkbox" required>HTML & CSS
+            <br><br>
+            <input name="Web Development" type="checkbox" required>JavaScript
+            <br><br>
+            <input name="Web Development" type="checkbox" required>MongoDB
+            </div>
+            <br><br>
+            <div class="start">
+                <label for="projectstart"><strong>Project Start:</strong></label>
+            <br><br>
+            <input name="Project Start" type="date" required>
+            </div>
+            <br><br>
+            <div class="end">
+                <label for="projectend"><strong>Project End:</strong></label>
+            <br><br>
+            <input name="Project End" type="date" required>
+            </div>
+            <br>
+            <br>
+            <div class="category">
+                <label for="category"><strong>Category:</strong></label>
+            <br><br>
+            <select class="category" name="Category" id="category" required>
+                <option value="Personal">Personal</option>
+                <option value="Family">Family</option>
+                <option value="Colleague">Colleague</option>
+                <option value="Company">Company</option>
+            </select>
+            </div>
+            </div>
+            <br>
+            <div class="line3"></div>
+        </form>
+        <br>
+        <button>Order our services</button>
+    </main>
+</body>
+</html>

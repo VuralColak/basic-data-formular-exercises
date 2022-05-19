@@ -1,0 +1,134 @@
+/* main {
+    border: solid 1px rgb(243, 238, 238);
+    margin: 10px;
+    margin-right: 454px;
+    margin-top: -35px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-right: 0;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0;
+}
+
+main {
+    width: 900px;
+}
+
+.header {
+    background-color: rgb(97, 94, 94);
+    color: white;
+    height: 70px;
+}
+
+.header h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.list1 {
+    border: solid 1px rgb(248, 242, 242);
+    margin: 10px;
+    margin-right: 454px;
+    margin-top: -35px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-right: 0;
+}
+
+.list2 {
+    border: solid 1px rgb(248, 242, 242);
+    margin: 10px;
+    margin-right: 454px;
+    margin-top: -15px;
+    padding: 10px;
+    padding-top: -50px;
+    padding-right: 0;
+    padding-bottom: 30px;
+}
+
+.fn input, .ln input, .street input, .zip input, .city input, .phone input, .email input, .comments textarea, .start input, .end input, .category select {
+    width: 400px;
+    height: 30px;
+}
+
+.comments textarea {
+    height: 100px;
+}
+
+button {
+    background-color: rgb(53, 172, 53);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 45px;
+    font-size: medium;
+}
+
+.line1 {
+    background-color: rgba(207, 204, 204, 0.966);
+    height: 2px;
+    width: 15px;
+    display: inline-block;
+    margin-bottom: 9px;
+    margin-right: 5px;
+    margin-left: -10px;
+}
+
+.line2 {
+    background-color: rgba(207, 204, 204, 0.966);
+    height: 1px;
+    width: 242px;
+    display: inline-block;
+    margin-bottom: 9px;
+    margin-left: 5px;
+}
+
+.line3 {
+    background-color: rgba(161, 159, 159, 0.966);
+    height: 1px;
+    width: 435px;
+    margin-left: 10px;
+    margin-top: -29px;
+
+}
+
+.head1 h2 {
+    display: inline-block;
+    color: rgb(90, 90, 248);
+}
+
+.head2 {
+    color: rgb(83, 83, 233);
+    margin-top: -25px;
+}
+
+.head1 {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+input[type="radio"] {
+    accent-color: rgb(255, 94, 0);
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+select {
+   background-color: rgb(226, 222, 222);
+   height: 25px; 
+}
+
+.start input, .end input {
+    height: 30px;
+}
